@@ -1,0 +1,37 @@
+
+.fish-boxes{
+    border: 1px solid black;
+    color: rgb(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fish-container{
+    display: grid;
+    grid-template-columns: 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw;
+    grid-template-rows: 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw;
+    grid-gap: 0.3vw;
+    background-color: #fff;
+    color: #444;
+}
+.fin-boxes{
+    border: 1px solid black;
+    color: rgb(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fin-container{
+    display: grid;
+    grid-template-columns: 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw 4.07vw;
+    grid-template-rows: 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw 2vw;
+    grid-gap: 0.3vw;
+    background-color: #fff;
+    color: #444;
+}
+.container{
+    margin: 2vw;
+}
+.Fish{
+    background-color: aqua;
+}
